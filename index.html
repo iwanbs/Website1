@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <title>My Portofolio</title>
+</head>
+
+<body class="">
+
+    <div class="container">
+
+        <nav class="navbar">
+            <div class="box theme">
+                <div class="item" onclick="theme()">
+                    <ion-icon id="lightbtn" name="sunny-outline"></ion-icon>
+                    <ion-icon id="darkbtn" name="moon-outline" style="display: none;"></ion-icon>
+                </div>
+            </div>
+            <div class="box nav">
+                <div class="item">
+                    <a href="#about">
+                        <ion-icon name="documents-outline"></ion-icon>
+                        <p>about</p>
+                    </a>
+                    <div class="divider ftr"></div>
+                </div>
+                <div class="item">
+                    <a href="#project">
+                        <ion-icon name="code-download-outline"></ion-icon>
+                        <p>project</p>
+                    </a>
+                    <div class="divider ftr"></div>
+                </div>
+                <div class="item">
+                    <a href="#contact">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <p>contact</p>
+                    </a>
+                    <div class="divider ftr"></div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Profile -->
+
+        <div class="box profile">
+            <img class="header" src="img/Inspiration .PNG" alt="">
+            <img class="img" src="img/logo.png" alt="">
+            <h2>Iwan Bagas Supriyadi</h2>
+            <p id="typed" class="colored"></p>
+
+            <ul>
+                <li>
+                    <a href="https://github.com/iwanbs?tab=repositories">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/iwanbagassupriyadib">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="footer">
+                <div class="divider ltr"></div>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="#">My Resume
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#">Contact Me
+                            <ion-icon name="mail-outline"></ion-icon></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+
+        <!-- Content -->
+
+        <div class="box content">
+            <div class="wrapper">
+                <h2 id="about">Hey<span class="colored">There!</span></h2>
+                <div class="divider ltr"></div>
+                <p>Saya lulusan dari Universitas Duta Bangsa Surakarta dengan latar belakang Teknik Informatika. Saya sangat tertarik dengan <span class="colored">Pengembang
+                Web Front End, Pengembang aplikasi android, desain grafis, editor video dan data analys.</span> </p>
+
+                <!-- Skill -->
+                <h2>My<span class="colored">Skills</span></h2>
+                <div class="divider ltr"></div>
+                <section class="skills">
+                    <div>
+                        <ion-icon name="logo-html5"></ion-icon>
+                        <p>HTML5</p>
+                    </div>
+                    <div>
+                        <ion-icon name="logo-css3"></ion-icon>
+                        <p>CSS</p>
+                    </div>
+                    <div>
+                        <ion-icon name="logo-nodejs"></ion-icon>
+                        <p>JS</p>
+                    </div>
+                    <div>
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                        <p>Flutter</p>
+                    </div>
+                    <div>
+                        <ion-icon name="tablet-landscape-outline"></ion-icon>
+                        <p>VB .NET</p>
+                    </div>
+                    <div>
+                        <ion-icon name="camera-outline"></ion-icon>
+                        <p>Photoshop</p>
+                    </div>
+                    <div>
+                        <div class="progress-bar">
+                            <h4>80 <span>%</span></h4>
+                            <progress max="100" value="80"></progress>
+                        </div>
+                        <p>MySQL</p>
+                        <div class="progress-bar">
+                            <h4>60 <span>%</span></h4>
+                            <progress max="100" value="60"></progress>
+                        </div>
+                        <p>Firebase</p>
+                    </div>
+                </section>
+
+                <!-- Experience -->
+                <h2>My<span class="colored">Experience</span></h2>
+                <div class="divider ltr"></div>
+
+                <section class="experiences">
+                    <div class="experience">
+                        <h2>Graphic Designer & Video Editor</h2>
+                        <h4>Duxeos Software House. <span class="date">Nov, 2021 - Jan, 2022</span></h4>
+                        <p>Merencanakan video, editing video dan desain video. Mengoptimalkan pencarian video dengan software search engine optimization (SEO). Membuat front-end website dengan menggunakan wordpress</p>
+                    </div>
+
+                </section>
+
+
+                <!-- Project -->
+                <h2 id="project">My<span class="colored">Projects</span></h2>
+                <div class="divider ltr"></div>
+
+                <section class="projects">
+                    <div class="project-1">
+                        <a href="https://github.com/iwanbs/TaskManagerApp">
+                            <img src="img/TaskManagerApp.png" alt="">
+                            <h3>Personal Project <span class="colored">Task Manager Mobile App</span></h3>
+                        </a>
+                    </div>
+                    <div class="project-2">
+                        <a href="https://github.com/iwanbs/UI--Travels">
+                            <img src="img/TravelApp.png" alt="">
+                            <h3>Personal Project <span class="colored">Travel Mobile App</span></h3>
+                        </a>
+                    </div>
+                    <div class="project-3">
+                        <a href="https://github.com/iwanbs/Herbal-App-UI-UX">
+                            <img src="img/herbalUi.png" alt="">
+                            <h3>Personal Project <span class="colored">Herbal App UI/UX</span></h3>
+                        </a>
+                    </div>
+                    <div class="project-4">
+                        <a href="https://sites.google.com/view/portofolioibs/halaman-muka">
+                            <img src="img/graphic_design.png" alt="">
+                            <h3>Personal Project <span class="colored">Graphic Design</span></h3>
+                        </a>
+                    </div>
+                    <div class="project-5">
+                        <a href="https://github.com/iwanbs/Laporan-Aplikasi-Raport-VBNET">
+                            <img src="img/vbnet.jpg" alt="">
+                            <h3>Personal Project <span class="colored">Raport App</span></h3>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Contact -->
+                <h2 id="contact">Contact<span class="colored">Me</span></h2>
+                <div class="divider ltr"></div>
+
+                <section>
+                    <form action="#" class="contact">
+                        <div>
+                            <input type="text" class="input" name="firstname" placeholder="Your firstname">
+                        </div>
+                        <div>
+                            <input type="text" class="input" name="lastname" placeholder="Your lastname">
+                        </div>
+                        <div>
+                            <input type="email" class="input" name="email" placeholder="Your email">
+                        </div>
+                        <div>
+                            <textarea name="subject" id="" class="input" placeholder="Write something ...."></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="submit">SEND</button>
+                        </div>
+                    </form>
+                </section>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
